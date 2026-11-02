@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "usr_master_01",
+      "email": "trader@apexlab.io",
+      "username": "ApexLeadQuant",
+      "passwordHash": "$2b$10$tPFfu3RvDcXYLTL8S.33a.NL/gm9QwXJIzuINyaLsmuKRoZCtw/SG",
+      "role": "QUANT_PRO",
+      "createdAt": "2026-11-02T22:36:25.056Z"
+    }
+  ],
+  "signals": [
+    {
+      "symbol": "NQ",
+      "setupName": "Live SFP Liquidity Sweep",
+      "dnaFingerprint": "DNA-NQ-LIVE-884",
+      "direction": "LONG",
+      "entryPrice": 28220,
+      "stopLoss": 28180,
+      "tp1": 28280,
+      "tp2": 28340,
+      "tp3": 28420,
+      "currentPrice": 28223.75,
+      "id": "sig_1793659007712_912",
+      "status": "ACTIVE",
+      "pnlR": 0,
+      "createdAt": "2026-11-02T22:36:47.712Z"
+    }
+  ],
+  "journal": [],
+  "accounts": [
+    {
+      "id": "acc_apex_funded_01",
+      "userId": "usr_master_01",
+      "platform": "APEX_TRADER_FUNDING",
+      "accountName": "Apex Trader Funding PA-100K",
+      "accountNumber": "APEX-88492-PA",
+      "server": "Rithmic Chicago Live",
+      "environment": "LIVE",
+      "currency": "USD",
+      "balance": 104250,
+      "equity": 105590,
+      "marginUsed": 2400,
+      "freeMargin": 103190,
+      "maxDailyDrawdown": 3000,
+      "trailingDrawdownThreshold": 101000,
+      "currentDrawdown": 0,
+      "drawdownStatus": "HEALTHY",
+      "syncStatus": "CONNECTED",
+      "lastSyncTime": "2026-11-02T22:53:42.480Z",
+      "positions": [
+        {
+          "id": "pos_nq_01",
+          "symbol": "NQ",
+          "side": "LONG",
+          "contracts": 2,
+          "entryPrice": 28190.25,
+          "currentPrice": 28223.75,
+          "unrealizedPnl": 1340,
+          "unrealizedPnlR": 2.68,
+          "stopLoss": 28140,
+          "takeProfit": 28350,
+          "openTime": "2026-11-02T22:08:35.822Z"
+        }
+      ]
+    }
+  ]
+}

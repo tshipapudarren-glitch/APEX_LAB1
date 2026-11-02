@@ -1,0 +1,6 @@
+{
+  "name": "Apex Lab - Trading Intelligence & Setup DNA Platform",
+  "description": "Institutional market behaviour analytics, Setup DNA Laboratory, Volatility Lab, Liquidity Radar, and 7-engine Market Decision Intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
